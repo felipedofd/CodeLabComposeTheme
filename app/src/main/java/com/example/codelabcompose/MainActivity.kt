@@ -55,3 +55,11 @@ fun GreetingPreview() {
         MyApp()
     }
 }
+
+@Preview(showBackground = true, widthDp = 320)
+@Composable
+fun DefaultPreview() {
+    CodeLabComposeTheme() {
+        MyApp()
+    }
+}
