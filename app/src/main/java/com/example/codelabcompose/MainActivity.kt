@@ -48,6 +48,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     CodeLabComposeTheme {
-        Greeting("Android")
+        MyApp()
     }
 }
